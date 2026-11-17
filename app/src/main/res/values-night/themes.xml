@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.BlueAccess"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/primary_action</item>
+        <item name="colorOnPrimary">@color/on_primary_action</item>
+        <item name="colorSecondary">@color/blue_secondary</item>
+
+        <!-- Fondo oscuro -->
+        <item name="android:windowBackground">@color/screen_background</item>
+
+        <!-- Barra de estado -->
+        <item name="android:statusBarColor">@color/header_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Barra de navegación -->
+        <item name="android:navigationBarColor">@color/screen_background</item>
+
+    </style>
+
+</resources>
